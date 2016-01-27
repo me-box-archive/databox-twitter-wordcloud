@@ -1,0 +1,29 @@
+{
+  "name": "databox-hello-world",
+  "version": "0.1.0",
+  "description": "An example Databox app",
+  "scripts": {
+    "start": "lsc hello-world.ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousefamar/databox-hello-world.git"
+  },
+  "keywords": [
+    "docker",
+    "databox",
+    "personal",
+    "data",
+    "example"
+  ],
+  "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yousefamar/databox-hello-world/issues"
+  },
+  "homepage": "https://github.com/yousefamar/databox-hello-world#readme",
+  "dependencies": {
+    "livescript": "^1.4.0"
+  }
+}
