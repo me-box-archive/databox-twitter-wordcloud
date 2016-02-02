@@ -1,0 +1,30 @@
+{
+	"manifest-version": 1,
+
+	"name": "databox-hello-world",
+	"version": "0.1.0",
+
+	"description": "An example Databox app",
+	"author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+	"license": "MIT",
+
+	"tags": [
+		"databox",
+		"hello",
+		"world"
+	],
+
+	"homepage": "https://github.com/yousefamar/databox-hello-world",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yousefamar/databox-hello-world.git"
+	},
+
+	"requirements": [
+		"twitter"
+	],
+	"optional-requirements": [
+	]
+	"resource-requirements": {
+	}
+}
