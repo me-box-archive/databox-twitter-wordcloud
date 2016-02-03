@@ -1,28 +1,29 @@
 {
-  "name": "databox-hello-world",
+  "name": "databox-twitter-wordcloud",
   "version": "0.1.0",
-  "description": "An example Databox app",
+  "description": "A simple Databox app that shows a word cloud of your Twitter timeline",
   "scripts": {
-    "start": "lsc hello-world.ls",
+    "start": "lsc server.ls",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yousefamar/databox-hello-world.git"
+    "url": "git+https://github.com/yousefamar/databox-twitter-wordcloud.git"
   },
   "keywords": [
     "docker",
     "databox",
     "personal",
     "data",
-    "example"
+    "twitter",
+    "wordcloud"
   ],
   "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yousefamar/databox-hello-world/issues"
+    "url": "https://github.com/yousefamar/databox-twitter-wordcloud/issues"
   },
-  "homepage": "https://github.com/yousefamar/databox-hello-world#readme",
+  "homepage": "https://github.com/yousefamar/databox-twitter-wordcloud#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.4",

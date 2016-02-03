@@ -1,30 +1,32 @@
 {
 	"manifest-version": 1,
 
-	"name": "databox-hello-world",
+	"name": "databox-twitter-wordcloud",
 	"version": "0.1.0",
 
-	"description": "An example Databox app",
+	"description": "A simple Databox app that shows a word cloud of your Twitter timeline",
 	"author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
 	"license": "MIT",
 
 	"tags": [
 		"databox",
-		"hello",
-		"world"
+		"twitter",
+		"wordcloud",
+		"word",
+		"cloud"
 	],
 
-	"homepage": "https://github.com/yousefamar/databox-hello-world",
+	"homepage": "https://github.com/yousefamar/databox-twitter-wordcloud",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/yousefamar/databox-hello-world.git"
+		"url": "git+https://github.com/yousefamar/databox-twitter-wordcloud.git"
 	},
 
 	"requirements": [
 		"twitter"
 	],
 	"optional-requirements": [
-	]
+	],
 	"resource-requirements": {
 	}
 }
