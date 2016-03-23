@@ -14,7 +14,7 @@
 		<ul id="tweets"></ul>
 		<script>
 			$(document).ready(function() {
-				$.get('//localhost:7999/twitter/api/statuses/home_timeline.json', {}, function(data) {
+				$.get('twitter/api/statuses/home_timeline.json', {}, function(data) {
 					data = JSON.parse(data);
 					var words = [];
 					for (var i = 0, len = data.length; i < len; ++i) {
