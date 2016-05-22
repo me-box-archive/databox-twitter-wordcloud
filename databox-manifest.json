@@ -22,9 +22,15 @@
 		"url": "git+https://github.com/yousefamar/databox-twitter-wordcloud.git"
 	},
 
-	"requirements": [
-		"twitter"
+	"driver-permissions": [
+		{
+			"name": "databox-twitter-driver",
+			"required": true,
+			"benefits": "[markdown-formatted description]",
+			"risks": "[markdown-formatted description]"
+		}
 	],
+
 	"optional-requirements": [
 	],
 	"resource-requirements": {
