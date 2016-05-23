@@ -7,14 +7,14 @@
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.min.js"></script>
-		<script src="https://jardindesconnaissances.googlecode.com/svn-history/r82/trunk/public/js/d3.layout.cloud.js"></script>
+		<script src="cloud.min.js"></script>
 	</head>
 	<body>
 		<h1>Twitter Word Cloud</h1>
 		<ul id="tweets"></ul>
 		<script>
 			$(document).ready(function() {
-				$.get('twitter/api/statuses/home_timeline.json', {}, function(data) {
+				$.get('api/statuses/home_timeline.json', {}, function(data) {
 					data = JSON.parse(data);
 					var words = [];
 					for (var i = 0, len = data.length; i < len; ++i) {
