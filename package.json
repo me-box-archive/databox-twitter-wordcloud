@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "A simple Databox app that shows a word cloud of your Twitter timeline",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lsc server.ls",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "docker build -t databox-twitter-wordcloud . && docker tag databox-twitter-wordcloud amar.io:5000/databox-twitter-wordcloud && docker push amar.io:5000/databox-twitter-wordcloud"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,6 @@
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
     "livescript": "^1.4.0",
-    "request": "^2.69.0"
+    "request": "^2.72.0"
   }
 }
